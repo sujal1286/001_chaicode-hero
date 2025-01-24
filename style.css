@@ -11,6 +11,19 @@ body{
       height: 100vh;
 }
 
+.firstpage
+{
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: linear-gradient(180deg, #55207d, #751193cb);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
 .main{
     text-align: center;
 }
@@ -28,11 +41,22 @@ body{
 
 .button {
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: #4d302b;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .button1 {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #22063d;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
   }
