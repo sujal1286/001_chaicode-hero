@@ -22,7 +22,7 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      
 }
 .main{
     text-align: center;
@@ -59,4 +59,11 @@ body{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+
   }
+ .main{
+    text-align: center;
+ }
