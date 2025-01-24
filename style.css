@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: linear-gradient(180deg, #1a0a04, #3c2f2a);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.main{
+    text-align: center;
+}
+
+.button{
+    border-radius: 2px;;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+      
+}
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4d302b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
